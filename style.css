@@ -1,0 +1,64 @@
+body {
+    background: rgb(94,183,169);
+    background: linear-gradient(90deg, rgba(94,183,169,1) 0%, rgba(170,212,213,1) 50%, rgba(133,193,196,1) 59%, rgba(6,67,100,1) 100%);;
+  }
+.ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    
+    background-color: rgb(226, 229, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .number {
+    color: rgb(48, 47, 47);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 35%;
+    margin-left: 5%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  td {
+    padding-top: 4%;
+    text-align: center;
+        vertical-align: middle;
+  }
+  
+  tr:nth-child(even){background-color: #53a0be}
+  tr:nth-child(odd){background-color: #aed6e5}
+  
+  th {
+    background-color: rgb(10, 140, 166);
+    color: rgb(255, 255, 255);
+  }
+  canvas {
+    margin-top: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+   vertical-align: top;
+  }
+  .btn {
+    margin-left: 5%;
+    background-color: rgb(10, 140, 166); /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  .btn:hover {
+    background-color:#53a0be;
+  }
