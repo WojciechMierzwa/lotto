@@ -8,7 +8,7 @@ Idea: Keeping statistics of number of drawed numbers in lottery lotto
 
 How it works: 
 
-Script losowanie.sh gets data of last drawed numbers from megalotto.sh and saves them to file wyniki.txt. Script zmienne.sh loads every row of file wyniki.txt to 6 variables, when it's done it deletes wyniki.txt. Next, it adds entry to database in JSON at beginning of file script.js. New entry is added between the first and second row of script.js. The site shows table of 6 numbers which were drawed the most, table of 7 last drawings, table of 1-49 number(those are all possible numbers to be drawed), which tells us how many times distinct number was drawed and donut chart implented with chart.js. 
+Script losowanie.sh gets data of last drawed numbers from megalotto.pl and saves them to file wyniki.txt. Script zmienne.sh loads every row of file wyniki.txt to 6 variables, when it's done it deletes wyniki.txt. Next, it adds entry to database in JSON at beginning of file script.js. New entry is added between the first and second row of script.js. The site shows table of 6 numbers which were drawed the most, table of 7 last drawings, table of 1-49 number(those are all possible numbers to be drawed), which tells us how many times distinct number was drawed and donut chart implented with chart.js. 
 
 PL
 
