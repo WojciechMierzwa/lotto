@@ -1,3 +1,4 @@
+#!/bin/bash
 data=$(curl https://megalotto.pl)
 values=$(echo "$data" | grep -o '<li><span>[0-9]\{1,2\}</span></li>' | grep -o '[0-9]\{1,2\}')
 counter=0
