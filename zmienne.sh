@@ -1,5 +1,5 @@
-
-./losowanie.sh
+#!/bin/bash
+~/public_html/Strona/Lotto/losowanie.sh
 
 # Pobranie z pliku wierszy i wpisanie ich do zmiennych
 filename="wyniki.txt"
@@ -11,8 +11,9 @@ done < "$filename"
 rm wyniki.txt
 
 # Zapisanie pobranych danych do JSONA
-filename='script.js'
-new_line=''\''{"date": "'"$(date +"%d-%m-%Y")"'","numbers": ['"$line_1"', '"$line_2"', '"$line_3"', '"$line_4"', '"$lin$
+filename='/home/students/20858/public_html/Strona/Lotto/script.js'
+new_line=''\''{"date": "'"$(date +"%d-%m-%Y")"'","numbers": ['"$line_1"', '"$line_2"', '"$line_3"', '"$line_4"', '"$line_5"', '"$line_6"']},'\'''+
+
 # Pobieranie pierwszego wiersza
 first_line=$(head -n 1 $filename)
 
