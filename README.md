@@ -26,4 +26,4 @@ This project tracks the frequency of drawn numbers in the Lotto lottery.
 To run the `zmienne.sh` script periodically, use the following cron job:
 
 ```bash
-0 23 * * 2,4,6 /home/students/20858/public_html/Strona/Lotto/zmienne >/dev/null 2>&1 (in my case)
+0 23 * * 2,4,6 /path >/dev/null 2>&1 
